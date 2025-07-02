@@ -11,7 +11,40 @@
 		772794A02D18B00600FE615B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7727949F2D18B00600FE615B /* ContentView.swift */; };
 		772794A22D18B00700FE615B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 772794A12D18B00700FE615B /* Assets.xcassets */; };
 		772794A52D18B00700FE615B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 772794A42D18B00700FE615B /* Preview Assets.xcassets */; };
+		772794AC2D18B03E00FE615B /* EmergencyContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772794AB2D18B03E00FE615B /* EmergencyContactView.swift */; };
+		772794AE2D18B06B00FE615B /* EmergencyInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772794AD2D18B06B00FE615B /* EmergencyInfoView.swift */; };
+		772794B02D18B0A500FE615B /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772794AF2D18B0A500FE615B /* FavoritesView.swift */; };
+		772794B22D18B0F600FE615B /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772794B12D18B0F500FE615B /* SearchBar.swift */; };
+		772794B42D18B0FE00FE615B /* Tabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772794B32D18B0FE00FE615B /* Tabs.swift */; };
+		772794B92D18B10A00FE615B /* Techniques.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772794B52D18B10A00FE615B /* Techniques.swift */; };
+		772794BA2D18B10A00FE615B /* WhenToSeekHelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772794B62D18B10A00FE615B /* WhenToSeekHelpView.swift */; };
+		772794BB2D18B10A00FE615B /* UserGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772794B72D18B10A00FE615B /* UserGuideView.swift */; };
+		772794BC2D18B10A00FE615B /* techniquesDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772794B82D18B10A00FE615B /* techniquesDetailView.swift */; };
+		772794BE2D18B4D100FE615B /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 772794BD2D18B4D100FE615B /* Launch Screen.storyboard */; };
+		7744BE9F2D19ABE8007AD3CF /* VoiceAssistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7744BE9E2D19ABE7007AD3CF /* VoiceAssistance.swift */; };
+		776A936C2D1BFC8200BA5187 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776A936B2D1BFC8200BA5187 /* NotificationManager.swift */; };
+		776A936E2D1BFF8900BA5187 /* ReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776A936D2D1BFF8900BA5187 /* ReminderView.swift */; };
+		776A93702D1C116400BA5187 /* ChecklistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776A936F2D1C116400BA5187 /* ChecklistView.swift */; };
+		77C876F42D282F76004A6C7B /* ChatbotAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C876F32D282F76004A6C7B /* ChatbotAPI.swift */; };
+		77E1FF9E2D1D8A0500993D59 /* ChatBotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E1FF9D2D1D8A0400993D59 /* ChatBotView.swift */; };
+		77F59C782D1ADA6E0065FFD5 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F59C772D1ADA6E0065FFD5 /* LocationManager.swift */; };
+		77F59C7A2D1ADFFB0065FFD5 /* NearbyServicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F59C792D1ADFFB0065FFD5 /* NearbyServicesView.swift */; };
+		77F59C7C2D1AE9790065FFD5 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F59C7B2D1AE9790065FFD5 /* MenuView.swift */; };
+		77F59C7E2D1AF1E30065FFD5 /* PharmacyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F59C7D2D1AF1E30065FFD5 /* PharmacyView.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		776A938D2D1C5A2500BA5187 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		7727949A2D18B00600FE615B /* FirstAidGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstAidGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,6 +52,27 @@
 		7727949F2D18B00600FE615B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		772794A12D18B00700FE615B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		772794A42D18B00700FE615B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		772794AB2D18B03E00FE615B /* EmergencyContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyContactView.swift; sourceTree = "<group>"; };
+		772794AD2D18B06B00FE615B /* EmergencyInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyInfoView.swift; sourceTree = "<group>"; };
+		772794AF2D18B0A500FE615B /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		772794B12D18B0F500FE615B /* SearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		772794B32D18B0FE00FE615B /* Tabs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tabs.swift; sourceTree = "<group>"; };
+		772794B52D18B10A00FE615B /* Techniques.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Techniques.swift; sourceTree = "<group>"; };
+		772794B62D18B10A00FE615B /* WhenToSeekHelpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhenToSeekHelpView.swift; sourceTree = "<group>"; };
+		772794B72D18B10A00FE615B /* UserGuideView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserGuideView.swift; sourceTree = "<group>"; };
+		772794B82D18B10A00FE615B /* techniquesDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = techniquesDetailView.swift; sourceTree = "<group>"; };
+		772794BD2D18B4D100FE615B /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		7744BE9E2D19ABE7007AD3CF /* VoiceAssistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceAssistance.swift; sourceTree = "<group>"; };
+		7744BEA02D19B050007AD3CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		776A936B2D1BFC8200BA5187 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		776A936D2D1BFF8900BA5187 /* ReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderView.swift; sourceTree = "<group>"; };
+		776A936F2D1C116400BA5187 /* ChecklistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistView.swift; sourceTree = "<group>"; };
+		77C876F32D282F76004A6C7B /* ChatbotAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatbotAPI.swift; sourceTree = "<group>"; };
+		77E1FF9D2D1D8A0400993D59 /* ChatBotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBotView.swift; sourceTree = "<group>"; };
+		77F59C772D1ADA6E0065FFD5 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		77F59C792D1ADFFB0065FFD5 /* NearbyServicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyServicesView.swift; sourceTree = "<group>"; };
+		77F59C7B2D1AE9790065FFD5 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		77F59C7D2D1AF1E30065FFD5 /* PharmacyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmacyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +89,8 @@
 		772794912D18B00600FE615B = {
 			isa = PBXGroup;
 			children = (
+				77F59C802D1AF2C40065FFD5 /* View */,
+				772794BD2D18B4D100FE615B /* Launch Screen.storyboard */,
 				7727949C2D18B00600FE615B /* FirstAidGuide */,
 				7727949B2D18B00600FE615B /* Products */,
 			);
@@ -51,8 +107,28 @@
 		7727949C2D18B00600FE615B /* FirstAidGuide */ = {
 			isa = PBXGroup;
 			children = (
-				7727949D2D18B00600FE615B /* FirstAidGuideApp.swift */,
+				7744BEA02D19B050007AD3CF /* Info.plist */,
+				772794B32D18B0FE00FE615B /* Tabs.swift */,
 				7727949F2D18B00600FE615B /* ContentView.swift */,
+				772794AB2D18B03E00FE615B /* EmergencyContactView.swift */,
+				772794AD2D18B06B00FE615B /* EmergencyInfoView.swift */,
+				772794AF2D18B0A500FE615B /* FavoritesView.swift */,
+				772794B12D18B0F500FE615B /* SearchBar.swift */,
+				772794B82D18B10A00FE615B /* techniquesDetailView.swift */,
+				772794B72D18B10A00FE615B /* UserGuideView.swift */,
+				772794B62D18B10A00FE615B /* WhenToSeekHelpView.swift */,
+				7727949D2D18B00600FE615B /* FirstAidGuideApp.swift */,
+				772794B52D18B10A00FE615B /* Techniques.swift */,
+				7744BE9E2D19ABE7007AD3CF /* VoiceAssistance.swift */,
+				77F59C792D1ADFFB0065FFD5 /* NearbyServicesView.swift */,
+				77F59C772D1ADA6E0065FFD5 /* LocationManager.swift */,
+				77F59C7B2D1AE9790065FFD5 /* MenuView.swift */,
+				77F59C7D2D1AF1E30065FFD5 /* PharmacyView.swift */,
+				776A936B2D1BFC8200BA5187 /* NotificationManager.swift */,
+				776A936D2D1BFF8900BA5187 /* ReminderView.swift */,
+				776A936F2D1C116400BA5187 /* ChecklistView.swift */,
+				77E1FF9D2D1D8A0400993D59 /* ChatBotView.swift */,
+				77C876F32D282F76004A6C7B /* ChatbotAPI.swift */,
 				772794A12D18B00700FE615B /* Assets.xcassets */,
 				772794A32D18B00700FE615B /* Preview Content */,
 			);
@@ -67,6 +143,13 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		77F59C802D1AF2C40065FFD5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,12 +160,15 @@
 				772794962D18B00600FE615B /* Sources */,
 				772794972D18B00600FE615B /* Frameworks */,
 				772794982D18B00600FE615B /* Resources */,
+				776A938D2D1C5A2500BA5187 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = FirstAidGuide;
+			packageProductDependencies = (
+			);
 			productName = FirstAidGuide;
 			productReference = 7727949A2D18B00600FE615B /* FirstAidGuide.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +197,8 @@
 				Base,
 			);
 			mainGroup = 772794912D18B00600FE615B;
+			packageReferences = (
+			);
 			productRefGroup = 7727949B2D18B00600FE615B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +213,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				772794BE2D18B4D100FE615B /* Launch Screen.storyboard in Resources */,
 				772794A52D18B00700FE615B /* Preview Assets.xcassets in Resources */,
 				772794A22D18B00700FE615B /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +226,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				772794B42D18B0FE00FE615B /* Tabs.swift in Sources */,
+				776A936C2D1BFC8200BA5187 /* NotificationManager.swift in Sources */,
+				772794B02D18B0A500FE615B /* FavoritesView.swift in Sources */,
+				77C876F42D282F76004A6C7B /* ChatbotAPI.swift in Sources */,
+				7744BE9F2D19ABE8007AD3CF /* VoiceAssistance.swift in Sources */,
+				772794AE2D18B06B00FE615B /* EmergencyInfoView.swift in Sources */,
 				772794A02D18B00600FE615B /* ContentView.swift in Sources */,
+				772794BA2D18B10A00FE615B /* WhenToSeekHelpView.swift in Sources */,
+				772794B92D18B10A00FE615B /* Techniques.swift in Sources */,
 				7727949E2D18B00600FE615B /* FirstAidGuideApp.swift in Sources */,
+				776A93702D1C116400BA5187 /* ChecklistView.swift in Sources */,
+				772794AC2D18B03E00FE615B /* EmergencyContactView.swift in Sources */,
+				772794BB2D18B10A00FE615B /* UserGuideView.swift in Sources */,
+				77F59C7C2D1AE9790065FFD5 /* MenuView.swift in Sources */,
+				772794BC2D18B10A00FE615B /* techniquesDetailView.swift in Sources */,
+				77F59C7A2D1ADFFB0065FFD5 /* NearbyServicesView.swift in Sources */,
+				776A936E2D1BFF8900BA5187 /* ReminderView.swift in Sources */,
+				77E1FF9E2D1D8A0500993D59 /* ChatBotView.swift in Sources */,
+				77F59C7E2D1AF1E30065FFD5 /* PharmacyView.swift in Sources */,
+				772794B22D18B0F600FE615B /* SearchBar.swift in Sources */,
+				77F59C782D1ADA6E0065FFD5 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,16 +377,24 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FirstAidGuide/Preview Content\"";
+				DEVELOPMENT_TEAM = Z9697UVR8J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FirstAidGuide/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = NSAllowsArbitraryLoads;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to find nearby emergency services.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need microphone access to provide voice-based guidance.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "We need speech recognition to provide voice instructions during emergencies.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -297,16 +413,24 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FirstAidGuide/Preview Content\"";
+				DEVELOPMENT_TEAM = Z9697UVR8J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FirstAidGuide/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = NSAllowsArbitraryLoads;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to find nearby emergency services.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need microphone access to provide voice-based guidance.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "We need speech recognition to provide voice instructions during emergencies.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

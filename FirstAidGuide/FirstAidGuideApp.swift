@@ -11,7 +11,7 @@ import SwiftUI
 struct FirstAidGuideApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Tabs()
         }
     }
 }
