@@ -7,6 +7,7 @@
 ## 📷 Screenshots
 
 <p float="left">
+  <img width="160" src="ScreenShots/Simulator Screenshot - iPhone 15 Pro - 2025-07-02 at 21.47.41.png">
   <img width="160" src="ScreenShots/Simulator Screenshot - iPhone 15 Pro - 2025-07-02 at 21.41.53.png">
   <img width="160" src="ScreenShots/Simulator Screenshot - iPhone 15 Pro - 2025-07-02 at 20.42.11.png">
   <img width="160" src="ScreenShots/Simulator Screenshot - iPhone 15 Pro - 2025-07-02 at 20.42.16.png">
@@ -18,7 +19,9 @@
   <img width="160" src="ScreenShots/Simulator Screenshot - iPhone 15 Pro - 2025-07-02 at 20.44.54.png">
   <img width="160" src="ScreenShots/Simulator Screenshot - iPhone 15 Pro - 2025-07-02 at 20.45.01.png">
   <img width="160" src="ScreenShots/Simulator Screenshot - iPhone 15 Pro - 2025-07-02 at 20.45.06.png">
-  <img width="160" src="ScreenShots/Simulator Screenshot - iPhone 15 Pro - 2025-07-02 at 20.45.11.png">
+  <img width="160" src="ScreenShots/Simulator Screenshot - iPhone 15 Pro - 2025-07-02 at 20.45.11.png">  
+  <img width="160" src="ScreenShots/Simulator Screenshot - iPhone 15 Pro - 2025-07-02 at 21.47.53.png">
+  <img width="160" src="ScreenShots/Simulator Screenshot - iPhone 15 Pro - 2025-07-02 at 21.49.03.png">
 </p>
 
 ---
